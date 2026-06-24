@@ -1,1 +1,14 @@
 reports/fund_master_summary.txt
+
+
+Before Cleaning
+(46000, 3)
+
+After Cleaning
+(46000, 3)
+
+Missing Values
+amfi_code    0
+date         0
+nav          0
+dtype: int64
