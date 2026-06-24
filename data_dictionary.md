@@ -1,6 +1,6 @@
 # Mutual Fund Analytics Data Dictionary
 
-## this is for all 10 datasets.
+## this is for 1 st data set datasets.
 
 | Column | Data Type | Description |
 |----------|----------|----------|
@@ -19,3 +19,13 @@
 | fund_manager | Text | Fund manager |
 | risk_category | Text | Risk category |
 | sebi_category_code | Text | SEBI classification code |
+
+## for 2nd data set (02_nav_history.csv)
+Column,Data Type,Description
+amfi_code,Integer,Unique identifier for the fund
+scheme_name,Text,Full name of the mutual fund scheme
+fund_house,Text,The Asset Management Company (AMC)
+category,Text,"SEBI-defined category (e.g., Large Cap)"
+sub_category,Text,Specific sub-classification
+plan,Text,"Growth/Dividend, Direct/Regular"
+...,...,...
